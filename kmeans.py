@@ -1,11 +1,4 @@
 #! /usr/bin/env python
-########################################
-# CS63: Artificial Intelligence, Lab 9
-# Spring 2017, Swarthmore College
-########################################
-# full name(s):
-# username(s):
-########################################
 
 from clustering import ClusteringModel
 import matplotlib.pyplot as plt
@@ -136,7 +129,7 @@ class KMeans(ClusteringModel):
 
     def findClosestCentroid(self, point):
         """
-
+        Relative to given point, returns cluster with closest centroid
         """
         cents = []
         for centroid in self.centroids.keys():
