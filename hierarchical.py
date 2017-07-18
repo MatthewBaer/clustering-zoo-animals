@@ -1,11 +1,4 @@
 #! /usr/bin/env python
-########################################
-# CS63: Artificial Intelligence, Lab 9
-# Spring 2017, Swarthmore College
-########################################
-# full name(s): Matt Parker, Matt Baer
-# username(s): mparker3, mbaer1
-########################################
 
 from clustering import ClusteringModel
 from nltk import Tree
