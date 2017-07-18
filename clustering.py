@@ -1,8 +1,4 @@
 #! /usr/bin/env python
-########################################
-# CS63: Artificial Intelligence, Lab 9
-# Spring 2017, Swarthmore College
-########################################
 
 from sys import argv
 from os.path import exists
